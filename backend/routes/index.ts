@@ -1,10 +1,10 @@
 import {Router, Request, Response} from "express";
-import usersRoutes from "./users.routes";
-import homeRoutes from "./home.routes";
+import usersRoutes from "./worker.route";
+import homeRoutes from "./home.route";
 
 const router = Router();
 
 router.use('/', homeRoutes);
-router.use('/users', usersRoutes);
+router.use('/workers', usersRoutes);
 
 export default router;

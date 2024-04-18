@@ -5,7 +5,7 @@ import connectDB from "../utils/connect";
 import router from "../routes";
 import cors from "cors";
 import helmet from "helmet";
-
+import deserializeUser from '../middleware/deserializeUser'
 
 
 
@@ -21,6 +21,8 @@ app.use(cors());
 app.use(helmet());
 app.use(express.json());
 app.use(express.urlencoded({extended: false}));
+app.use(deserializeUser);
+
 
 // Routes
 app.use('/api/', router);
