@@ -5,7 +5,7 @@ function Jobcard(props: { logo: string | undefined; company: string | number | b
         <>
             <div>
                 <div className="p-7 rounded-2xl duration-150 border border-1 border-gray-100 hover:bg-slate-50/20 shadow-sm hover:shadow-md">
-                    <a href="/" className="space-y-3">
+                    <a href="/job" className="space-y-3">
                         <div className="flex items-center gap-x-4">
                             <div className="w-16 h-16 border rounded-2xl flex items-center justify-center p-1">
                                 <img src={props.logo} alt="Company Logo" />

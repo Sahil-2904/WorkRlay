@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import logo from "../assets/Logo.png"
 
 export default () => {
 
@@ -8,7 +9,7 @@ export default () => {
     const navigation = [
         { title: "Find Jobs", path: "/jobs" },
         { title: "Employers", path: "/emp/dashboard" },
-        { title: "Candidates", path: "javascript:void(0)" },
+        { title: "Candidates", path: "/can/dashboard" },
         { title: "About", path: "/about" }
     ]
 
@@ -42,11 +43,8 @@ export default () => {
             <div className=" items-center px-4 max-w-screen-xl mx-auto md:flex md:px-8">
                 <div className="flex items-center justify-between py-3 md:py-5 md:block">
                     <a href="/">
-                        {/* <img
-                            src={logo}
-                            alt="workRlay logo"
-                        /> */}
-                        <h1 className='text-3xl font-mono font-bold'>workRlay</h1>
+                        <img className='w-full h-12' src={logo} alt="workRlay logo"/>
+                        {/* <h1 className='text-3xl font-mono font-bold'>workRlay</h1> */}
                     </a>
                     <div className="md:hidden">
                         <button className="text-gray-500 hover:text-gray-800"

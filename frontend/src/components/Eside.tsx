@@ -6,7 +6,7 @@ function Eside(){
         {title:"Manage Jobs",link:"/emp/jobs"},
         {title:"All Applicants",link:"/emp/applicants"},
         {title:"Message",link:"/emp/messages"},
-        {title:"Change Password",link:"/emp/pass"},
+        {title:"Change Password",link:"/emp/changepass"},
         {title:"Delete Profile",link:"/emp/delete"},
         {title:"Logout",link:"/emp/logout"}
     ]

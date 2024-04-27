@@ -1,3 +1,5 @@
+import logo from "../assets/Logo.png"
+
 export default () => {
 
     const footerNavs = [
@@ -72,11 +74,8 @@ export default () => {
                 <div className="flex-1">
                     <div className="max-w-xs">
                         <a href="/">
-                            {/* <img
-                                src={logo}
-                                alt="workRlay logo"
-                            /> */}
-                            <h1 className='text-3xl font-mono text-black font-bold'>workRlay</h1>
+                            <img className='w-4/5 h-14' src={logo} alt="workRlay logo"/>
+                            {/* <h1 className='text-3xl font-mono text-black font-bold'>workRlay</h1> */}
                         </a>
                         <p className="leading-relaxed mt-2 text-[15px]">
                             Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
